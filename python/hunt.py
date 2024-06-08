@@ -1,8 +1,6 @@
 import random
 import time
 
-from enum import Enum
-
 
 rooms = [
     [2, 8, 14],  #   0
@@ -27,9 +25,6 @@ rooms = [
     [1, 3, 9],  #  19
 ]
 
-class ArrowResult(Enum):
-    WUMPUS_DEAD = 0
-    PLAYER_DEAD = 1
 
 
 player_room_nr = 0
