@@ -322,8 +322,8 @@ def main():
             ask_move()
             end = check_hazards()
         if end:
-            end = next_game()
-            if end:
+            next = next_game()
+            if next:
                 initialize()
             else:
                 break
