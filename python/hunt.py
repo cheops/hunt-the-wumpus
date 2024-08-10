@@ -221,7 +221,7 @@ def ask_room():
     while True:
         room = input("Which room should your arrow go? [1-20] ")
         try:
-            room = int(room)
+            room = int(room)-1
         except Exception:
             room = None
         if room is None or room < 1 or room > 20:
