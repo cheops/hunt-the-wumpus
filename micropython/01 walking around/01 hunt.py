@@ -1,8 +1,6 @@
 import random
 import time
 
-import hunt_serial
-
 rooms = [
     [2, 8, 14],    #   0
     [7, 13, 19],   #   1
